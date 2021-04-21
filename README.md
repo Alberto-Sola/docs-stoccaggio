@@ -42,9 +42,7 @@ async mainPage() {
 }
 ```
 
-{% hint style="info" %}
-NestJS a basso livello utilizza [Express](https://expressjs.com/it/)
-{% endhint %}
+> NestJS a basso livello utilizza [Express](https://expressjs.com/it/)
 
 ## Template Engine
 
@@ -121,9 +119,7 @@ remove(id: string) {
 }
 ```
 
-{% hint style="info" %}
-L'applicazione sfrutta il servizio [**MongoDB Atlas**](https://cloud.mongodb.com/v2/603762ad720712003d1e4e8f#clusters), che ci permettte di utilizzare il database da una macchina virtuale remota
-{% endhint %}
+> L'applicazione sfrutta il servizio [**MongoDB Atlas**](https://cloud.mongodb.com/v2/603762ad720712003d1e4e8f#clusters), che ci permettte di utilizzare il database da una macchina virtuale remota
 
 ## Interfaccia Grafica
 
