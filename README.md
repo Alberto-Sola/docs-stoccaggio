@@ -67,7 +67,7 @@ L'applicazione restituisce al browser, al momento della risposta HTTP, una pagin
 
 ## Base Dati
 
-L'app si interfaccia con un database **documentale**: ****[**MongoDB**](https://www.mongodb.com/it); attraverso una libreria JavaScript chiamata [Mongoose](https://mongoosejs.com), che offre le API necessarie per effettuare query e modifiche.
+L'app si interfaccia con un database **documentale**: [**MongoDB**](https://www.mongodb.com/it); attraverso una libreria JavaScript chiamata [Mongoose](https://mongoosejs.com), che offre le API necessarie per effettuare query e modifiche.
 
 Essendo un database documentale, MongoDB non impone l'utilizzo di tabelle con righe e campi, bensì, vengono utilizzate delle strutture chiamate _collections,_ che contengono le relative istanze, chiamate _documents_. Per mezzo di Mongoose si ha la possibilità di creare il _modello_ di ciascuna collezione, il quale si definisce attraverso uno _schema_ direttamente nel codice dell'app_._
 
