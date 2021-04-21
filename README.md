@@ -28,7 +28,7 @@ In effetti, il server si occupa di:
 
 ## Server
 
-L'applicazione che fa funzionare il server è scritta in **TypeScript** e utilizza un framework di **Node.js**: [**NestJS**](https://nestjs.com), utilizzato per creare applicazioni web scalabili e leggibili attraverso una sorta di pattern per l'organizzazione di file e cartelle.
+L'applicazione che fa funzionare il server è scritta in **TypeScript** e si basa sul framework [**NestJS**](https://nestjs.com), utilizzato per creare applicazioni web scalabili e leggibili attraverso un insieme di convenzioni riguardanti l'organizzazione di file, nomi e cartelle.
 
 Inoltre, NestJS funziona per mezzo dei _decorators_, funzioni speciali che parametrizzano e gestiscono il codice sottostante:
 
@@ -69,7 +69,7 @@ L'applicazione restituisce al browser, al momento della risposta HTTP, una pagin
 
 L'app si interfaccia con un database **documentale**: ****[**MongoDB**](https://www.mongodb.com/it); attraverso una libreria JavaScript chiamata [Mongoose](https://mongoosejs.com), che offre le API necessarie per effettuare query e modifiche.
 
-Essendo un database documentale, MongoDB non impone l'utilizzo di tabelle con righe e campi, bensì, vengono utilizzate delle strutture chiamate _collections,_ che contengono le relative istanze, chiamate _documents_. Ogni collezione ha un suo _modello,_ con Mongoose il modello si definisce attraverso uno _schema_ direttamente nel codice dell'app_._
+Essendo un database documentale, MongoDB non impone l'utilizzo di tabelle con righe e campi, bensì, vengono utilizzate delle strutture chiamate _collections,_ che contengono le relative istanze, chiamate _documents_. Per mezzo di Mongoose si ha la possibilità di creare il _modello_ di ciascuna collezione, il quale si definisce attraverso uno _schema_ direttamente nel codice dell'app_._
 
 ```typescript
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
