@@ -6,7 +6,7 @@ Il progetto consiste in un'**applicazione web** che porta con se l'obiettivo di 
 
 ## Generalità
 
-L'app consentirebbe all'utente di avere una panoramica intuitiva del magazzino, che ottimizzerebbe gli spazi, per mezzo della quale sarebbe possibile:
+L'app consente all'utente di avere una panoramica intuitiva del magazzino, che ottimizza gli spazi, per mezzo della quale sarebbe possibile:
 
 * Caricare colli specificando le dovute caratteristiche
 * Apportare eventuali modifiche ai colli
