@@ -50,7 +50,7 @@ NestJS a basso livello utilizza [Express](https://expressjs.com/it/)
 
 L'applicazione restituisce al browser, al momento della risposta HTTP, una pagina HTML che non necessita di essere elaborata. Questo perché il server si occupa di costruire la pagina, inserendo tutti i dati necessari e relativi alle richieste dell'utente. Il motore di template [**EJS**](https://ejs.co) ci permette di aggiungere del **JavaScript** all'HTML.
 
-```markup
+```html
 <% warehouses.forEach((wh, i) => { %>
     <tr class="<%= i % 2 ? "bg-gray-50" : "bg-white-50"; %>">
         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
