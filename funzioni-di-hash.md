@@ -16,5 +16,29 @@ Le funzioni di Hash servono per trasformare una stringa **qualsiasi** in una str
 
 Le funzioni di hash sono funzioni _non invertibili,_ ossia funzioni **non** biunivoche \(partendo dal codice generato non è possibile tornare alla stringa originale\)
 
-## 
+## Dettagli
+
+> Dato un messaggio **M**; Data una funzione di Hash **h\(\)**;
+
+`d = h(M)`
+
+![](.gitbook/assets/hash_1.png)
+
+{% hint style="success" %}
+**d** rappresenta il **Digest**, ossia il risultato di una funzione di Hash
+{% endhint %}
+
+## Proprietà
+
+* Resistenza alla preimmagine
+
+  > è impossibile trovare una stringa che dia un hash uguale a un'altro _dato hash_
+
+* Resistenza alla seconda preimmagine
+
+  > è impossibile trovare una stringa che dia lo stesso hash di un'altra _data stringa_
+
+* Resistenza alle collisioni
+
+  > è impossibile trovare una coppia di stringhe che diano lo stesso risultato hash
 
