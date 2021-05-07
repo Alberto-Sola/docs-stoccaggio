@@ -42,3 +42,9 @@ Le funzioni di hash sono funzioni _non invertibili,_ ossia funzioni **non** biun
 
   > è impossibile trovare una coppia di stringhe che diano lo stesso risultato hash
 
+In un certo senso possiamo affermare che ogni stringa possa essere identificata univocamente da un'impronta digitale, _il proprio **Digest**_
+
+![](.gitbook/assets/impronte.jpg)
+
+
+
